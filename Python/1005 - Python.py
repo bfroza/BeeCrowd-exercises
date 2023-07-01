@@ -1,0 +1,6 @@
+A = input()
+B =input()
+a = float(A)
+b= float(B)
+media =  (a*3.5/11 + b*7.5/11)
+print('MEDIA = %.5f'% float(media) )
