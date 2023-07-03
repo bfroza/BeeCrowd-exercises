@@ -11,24 +11,42 @@ This repository was created with the purpose of storing the codes that were acce
 The repository is organized as follows:
 
 BeeCrowd-exercises/
+
 ├── Python/
+
 │ ├── 1001.py
+
 │ ├── 1002.py
+
 │ ├── ...
+
 │ └── 2000.py
+
 ├── Java/
+
 │ ├── 1001.java
+
 │ ├── 1002.java
+
 │ ├── ...
+
 │ └── 2000.java
+
 ├── C++/
+
 │ ├── 1001.cpp
+
 │ ├── 1002.cpp
+
 │ ├── ...
+
 │ └── 2000.cpp
+
 ├── README.md
+
 └── .gitignore
-he "Python" folder contains the Python codes, the "Java" folder contains the Java codes, and the "C++" folder contains the C++ codes. Each folder contains the respective numbered files according to the BeeCrowd exercises.
+
+The "Python" folder contains the Python codes, the "Java" folder contains the Java codes, and the "C++" folder contains the C++ codes. Each folder contains the respective numbered files according to the BeeCrowd exercises.
 
 ## Contribution
 
