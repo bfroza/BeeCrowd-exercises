@@ -4,7 +4,7 @@ Repository to store my accepted codes on BeeCrowd and also used to practice Git 
 
 ## Description
 
-This repository was created with the purpose of storing the codes that were accepted on BeeCrowd, a programming exercise platform. Additionally, it is also used as a training environment to learn and improve Git usage, a widely used version control system.
+This repository was created with the purpose of storing the codes that were accepted on BeeCrowd, a programming exercise platform. Additionally, it is also used as a training environment to learn and improve Git usage, a widely used version control system!
 
 ## Repository Structure
 
