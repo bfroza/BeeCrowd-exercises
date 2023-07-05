@@ -54,7 +54,4 @@ git reset --mixed HEAD~1 exclui o commit do local, mas as alterações ficam "sa
 
 git reset --soft HEAD~1 é usado para desfazer o último commit, mantendo as alterações do commit desfeito no seu diretório de trabalho e no índice de preparação (staging area).
 
-
-
-
 	
