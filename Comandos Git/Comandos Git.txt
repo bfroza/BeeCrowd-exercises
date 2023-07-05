@@ -45,4 +45,7 @@ git stash salva as mudanças da branch no momento
 git stash list mostra aonde ficou salvo a mudança
 
 git stash apply desfaz o stash e a alteração volta a ser rastreada
+
+git revert serve 'T1' reverte o commit, criando um novo para substituilo, mas as alterações ficam salvas no histórico
+
 	
