@@ -1,0 +1,42 @@
+git branch 'teste' serve para criar um galho no repositorio
+
+git branch --list mostra os galhos
+
+git checkout -b 'teste' cria uma branch e já entra nela
+
+git switch 'teste' entra na branch também
+
+git switch - sai da branch
+
+git switch -c cria uma branch
+
+git push -u origin 'teste' adiciona a branch ao servidor
+
+git branch -d 'teste' exclui a branch e seu histórico
+
+git merge 'teste' primeiramente vou para a branch que quero mesclar os arquivos(master), 
+digito o comando com o nome da branch que quero mesclar, 
+esse fara uma alteração na branch escolhida mudando apenas as alterações.
+
+git branch --no-merged diz qual branch n foram mergeadas(mescladas)
+
+git branch --merged consegue ver quais branch já foram mergeadas para a branch que você está atualamente
+
+git tag teste cria a tag, mas você tem que estar na branch/commit escolhido
+
+git tag -a -m "Aprendendo a mergear e commitar" teste cria uma tag com uma descrição. Mostra o criador e outras informações
+
+git tag mostra as tags do projeto
+
+git tag -n mostra a descrição
+
+git tag 'T1' 'c0360e6' usa o cód do log para criar a tag
+
+git push origin 'T1' envia a tag para o repositório 
+
+git push --tags envia todas para o servidor, mas cuidado mesmo que as tags locais já estejam excluidas no GitHub, ao utilizar esse comando elas serão enviadas.
+
+git tag -d 'T1' exclui a tag localmente
+
+git push --delete origin 'T1' envia uma mensagem para o servidor excluir a tag
+	
