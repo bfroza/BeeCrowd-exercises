@@ -39,4 +39,10 @@ git push --tags envia todas para o servidor, mas cuidado mesmo que as tags locai
 git tag -d 'T1' exclui a tag localmente
 
 git push --delete origin 'T1' envia uma mensagem para o servidor excluir a tag
+
+git stash salva as mudanças da branch no momento
+
+git stash list mostra aonde ficou salvo a mudança
+
+git stash apply desfaz o stash e a alteração volta a ser rastreada
 	
