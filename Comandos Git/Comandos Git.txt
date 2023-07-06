@@ -18,7 +18,7 @@ git merge 'teste' primeiramente vou para a branch que quero mesclar os arquivos 
 digito o comando com o nome da branch que quero mesclar, 
 esse fará uma alteração na branch escolhida mudando apenas as alterações.
 
-git branch --no-merged diz quais branches não foram mergeadas (mescladas).
+git branch --no-merged diz quais branches não foram mergeadas (mescladas). Padrão merge
 
 git branch --merged consegue ver quais branches já foram mergeadas para a branch em que você está atualmente..
 
