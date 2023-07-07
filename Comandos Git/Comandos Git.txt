@@ -92,3 +92,5 @@ git reset --soft HEAD~1 é usado para desfazer o último commit, mantendo as alt
 git push --force força o repositório online a aceitar as mudanças. Faz uma sobreescrita do repositório online.
 
 git push --force-with-lease fara o mesmo que  acima, mas somente se nenhuma alteração for perdida
+
+git cherry-pick trás apenas o q interesante para a branch atual
