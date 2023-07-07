@@ -1,0 +1,34 @@
+git log --stat mostra quais arquivos foram commitados e o numero de linha adicionadas/deletadas.Também mostra o log do commit
+
+git log --shortstat mostra quais arquivos foram commitados e seu 
+log apenas oq foi modificado brevemente
+
+git log -p mostra a diff entre os commits e o log
+
+git log mostra o log e quem alterou
+
+git log -1 delimita o numero de logs
+
+git log --oneline -1 mostra apenas 1 log resumido em uma linha
+
+git commit --amend -m "Modificação na pasta 'gitignore'"
+Essa linha de comando permite alterar um commit anterior, mas tenha muito cuidado ao utilizá-la, pois ela substitui o commit anterior por um novo. Isso significa que, se alguém estiver trabalhando no commit anterior, poderá perder as alterações feitas.
+
+git commit --amend --no-edit pode ser utilizado caso esqueça de commitar algo ou commite pela metade. Para utiliza-lo de um 'git add' no arquivo que esqueceu, após inicie o comando. Este que apagara o commit anterior e substituira por um novo
+
+git checkout pode utilizar o código do log para voltar no tempo, e acessar os commits passados através do seu código. Caso queira voltar aos commits atuais utilize a tag 'master'
+
+touch pode criar um arquivo na pasta. Com o tipo que voce quiser.
+
+git clean -f serve para limpar os arquivos untracked
+
+git rm --cached é usado para remover arquivos do índice do Git (staging area) sem excluí-los do sistema de arquivos local. Isso significa que o arquivo não será mais rastreado pelo Git, mas continuará presente no seu diretório de trabalho.
+
+ git restore --staged faz a mesma coisa que o rm, mas precisa de algum commit anterior para  ter um ponto de partida
+
+git reset --hard remove todas as alterações não confirmadas e redefine o estado do seu repositório para o commit especificado, descartando qualquer commit posterior a ele.
+
+git update-index --skip-worktree 'README.md' serve para fazer o git parar de rastrear um arquivo especifico, caso use (--no-skip) o arquivo volta a ser rastreado
+
+git remote set-url orign escolhe qual será a url para qual os commits serão enviados.
+
